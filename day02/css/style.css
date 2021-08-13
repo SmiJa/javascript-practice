@@ -50,3 +50,16 @@ body {
     background-color: #121212;
     color: #cdcdcd
 }
+
+#list-wrap {
+    padding: 15px;
+}
+
+#list li {
+    list-style-type: none;
+}
+
+.item {
+    border: #cdcdcd 1px solid;
+    padding: 10px;
+}
