@@ -57,9 +57,11 @@ body {
 
 #list li {
     list-style-type: none;
+    margin: 10px 0;
 }
 
 .item {
-    border: #cdcdcd 1px solid;
+    border: #cdcdcda9 1px solid;
     padding: 10px;
+    background-color: #1212127a;
 }
