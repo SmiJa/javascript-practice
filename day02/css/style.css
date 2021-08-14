@@ -41,6 +41,10 @@ body {
     outline: none;
 }
 
+#new-item-wrap button:focus {
+    background-color: #be4040;
+}
+
 #new-item-wrap input,
 #new-item-wrap button {
     border-radius: 0;
