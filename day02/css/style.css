@@ -69,3 +69,8 @@ body {
     padding: 10px;
     background-color: #1212127a;
 }
+
+.remove {
+    color: #be4040;
+    font-weight: bold;
+}

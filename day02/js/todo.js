@@ -8,6 +8,7 @@ function addItem() {
     `<li>
         <div class="item">
             <p class="item-text">${newItem}</p>
+            <p class="remove" onclick="remove()">X</p>
         </div>
     </li>`;
 
@@ -18,6 +19,10 @@ function addItem() {
     }
     
     taskInput.value = "";
+}
+
+function removeItem() {
+    console.log(this);
 }
 
 btn.addEventListener("click", addItem);
