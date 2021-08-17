@@ -45,6 +45,10 @@ body {
     background-color: #be4040;
 }
 
+#new-item-wrap button:hover {
+    background-color: #424242;
+}
+
 #new-item-wrap input,
 #new-item-wrap button {
     border-radius: 0;
