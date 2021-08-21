@@ -102,5 +102,14 @@ function newListItem(value) {
 
     newLi.appendChild(newDiv);
 
+    addItemToList(value);
+
     return newLi;
+}
+
+// 
+function addItemToList(item) {
+    itemsList.push(item);
+    console.log(item);
+    console.log(itemsList);
 }
