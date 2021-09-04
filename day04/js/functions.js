@@ -104,6 +104,8 @@ function newListItem(value) {
 
     addItemToList(value);
 
+    newListener(newDiv, "click", removeItem(this));
+
     return newLi;
 }
 
@@ -112,4 +114,8 @@ function addItemToList(item) {
     itemsList.push(item);
     console.log(item);
     console.log(itemsList);
+}
+
+function removeItem(obj) {
+    obj.parentNode.parentNode.removeChild(li);
 }

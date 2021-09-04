@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#form-wrap {
+    border-right: 2px solid #333;
+}
+
+#form-wrap div {
+    padding: 10px;
+}
+
+#form-wrap div:nth-child(even) {
+    background-color: rgba(126, 126, 126, 0.452);
+}
+
+#form-wrap button {
+    width: 100%;
+    font-weight: bold;
+    height: 40px;
+}
+
+#inventory-wrap {
+    /* border: 2px red solid; */
+    width: 80%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.car {
+    min-width: 120px;
+    border: 1px solid #000;
+    min-height: 80px;
+    max-height: 140px;
+    margin: 10px;
+    padding: 8px;
+}
